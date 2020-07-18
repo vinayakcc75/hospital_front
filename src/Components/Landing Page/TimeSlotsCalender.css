@@ -1,0 +1,21 @@
+.timeslot{
+    width:160%;
+    margin-left:-30%;
+    height:300px;
+    display:flex;
+    left:0;
+    justify-content: center;
+}
+.oneSlot{
+    margin:5px;
+}
+.morning,.evening{
+    margin:30px;
+
+}
+.oneSlot input{
+    margin:5px;
+}
+.disable:hover{
+    cursor:no-drop;
+}

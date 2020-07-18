@@ -1,0 +1,49 @@
+.pat-profile{
+  display:flex;
+  justify-content: center;
+  width: 80%;
+  margin-left: 20%;
+  margin-right:20%;
+  text-align: center;
+}
+.pat-profile table {
+  width:50%;
+  font-size:12px;
+  justify-content: center;
+  border:2px double black;
+  border-radius: 2%;
+  box-shadow:0vh 0vh 1vh 1vh grey;
+}
+.pat-profile img{
+  margin-left:65%;
+  width: 100px;
+  height: 100px;
+  border-radius: 75px;
+}
+.pat-profile button{
+  background-color: transparent;
+  color:black;
+  padding:5px;
+  border:2px double black;
+  font-weight: bold;
+  margin:10px;
+  width:140px;
+  margin-left:60%;
+}
+.pat-profile button:hover{
+  transition: 0.2s;
+  transform: scale(1.05);
+  font:15px;
+  cursor:pointer
+}
+@media (max-width:786px){
+  .pat-profile table{
+      font-size:13px;
+  }
+}
+.profile-main-wraper {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+

@@ -1,0 +1,18 @@
+.heads,.rec-individual{
+    width:80%;
+    display:flex;
+    justify-content: space-evenly;
+    margin:5px;
+    padding:5px;
+    margin-left:20%;   
+}
+.rec-individual div,.heads div{
+    justify-content: center;
+    width:20%;
+}
+.heads{
+    margin-top:2%;
+}
+.rec-individual:hover{
+    box-shadow: 0vh 0vh 0.5vh 0.5vh coral;
+}

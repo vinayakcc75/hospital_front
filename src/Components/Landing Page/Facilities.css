@@ -1,0 +1,28 @@
+.facility-wraper{
+    text-align: center;
+    width:100%;
+}
+
+.facility-main{
+    display: inline-block;
+    
+}
+
+.facility-main h1{
+    text-align: center;
+}
+
+.facility-card{
+    border:1px solid #000000;
+    width:400px;
+    height:300px;
+    margin:10px;
+    padding:10px;
+    
+}
+
+.facility-card img{
+    width: 400px;
+    height:250px;
+}
+

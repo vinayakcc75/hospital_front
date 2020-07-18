@@ -1,0 +1,108 @@
+footer{
+    top:900px;
+}
+.normal-side-bar{
+    height:120%;
+}
+.doctor-sidebar .button-side-bar nav{
+    height:900px;
+    background-color:#ff8d00;
+    margin-top:76px;
+
+}
+.doctor-sidebar .normal-side-bar nav{
+    background-color:#ff8d00;
+    margin-top:76px
+}
+.doctor-sidebar .homepic {
+    position:absolute;
+    top:85px;
+    right:0;
+}
+.doctor-sidebar .hamburger {
+    left:0;
+    position:absolute;
+    font-size:15px;
+    top:80px
+}
+.doctor-sidebar .hamburger button{
+    font-size: 15px;
+}
+.doctor-sidebar .button-side-bar button{
+    font-weight:bold;
+    color: black;
+    text-shadow:silver;
+    text-decoration: none;
+    margin:5px;
+    padding:5px;
+    border:0.5px black solid;
+    background-color:transparent;
+    transition-duration: 0.4s;
+}
+.doctor-sidebar .sidebar button{
+    font-size:15px;
+    text-shadow: 1px 1px silver;
+}
+.doctor-sidebar .cross{
+    margin-left:35%;
+    position:absolute;
+    cursor:pointer
+}
+.doctor-sidebar .sidebar{
+    display:flex;
+    top:0;
+    left:0;
+    position:absolute;
+    justify-content: center;
+    height:900px;
+    width:20%;
+    border:3px solid black;
+    border-top:none;
+    border-left:none;
+}
+.doctor-sidebar .side-links{
+    height:80%;
+    margin-top:20px;
+    display:flex;    
+    flex-direction:column;
+}
+.doctor-sidebar .center{
+    justify-content: center;
+}
+.doctor-sidebar .side-links button{
+    font-weight:bold;
+    font-family: Marker Felt, fantasy;
+    color: black;
+    margin-top:60px;
+    margin-bottom:60px;
+    text-shadow:silver;
+    text-decoration: none;
+    padding:5px;
+    background-color:transparent;
+    transition-duration: 0.4s;
+    border:none;
+}
+
+.doctor-sidebar .side-links button:hover,.doctor-sidebar .hamburger button:hover{
+    color:black;
+    transform: scale(1.1);
+    cursor:pointer;
+    background-color: white;
+}
+.doctor-sidebar .homepic:hover{
+    transform: scale(1.1);
+    cursor:pointer;
+}
+.doctor-sidebar .homepic:active,.doctor-sidebar .side-links button:active,.doctor-sidebar .hamburger button:hover{
+    color:red;
+}
+@media (min-width:768px){
+    .doctor-sidebar .button-side-bar nav{
+        display:none;
+    }
+}
+@media (max-width:768px){
+    .doctor-sidebar .normal-side-bar nav{
+        display:none;
+    }
+}

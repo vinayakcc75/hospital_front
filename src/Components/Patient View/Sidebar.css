@@ -1,0 +1,107 @@
+footer{
+    top:900px;
+}
+.normal-side-bar{
+    height:900px;
+}
+.patient-sidebar .button-side-bar nav{
+    background-color:#ff8d00;
+    margin-top:76px;
+}
+.patient-sidebar .normal-side-bar nav{
+    background-color:#ff8d00;
+    margin-top:76px;
+}
+.patient-sidebar .homepic{
+    position:absolute;
+    top:85px;
+    right:0;
+}
+.patient-sidebar .hamburger {
+    left:0;
+    position:absolute;
+    font-size:15px;
+    top:80px
+}
+.patient-sidebar .hamburger button{
+    font-size: 15px;
+}
+.patient-sidebar .button-side-bar button{
+    font-weight:bold;
+    color: black;
+    text-shadow:silver;
+    text-decoration: none;
+    margin:5px;
+    padding:5px;
+    border:0.5px black solid;
+    background-color:transparent;
+    transition-duration: 0.4s;
+}
+.patient-sidebar .sidebar button{
+    font-size:15px;
+    text-shadow: 1px 1px silver;
+}
+.patient-sidebar .cross{
+    margin-left:35%;
+    position:absolute;
+    cursor:pointer
+}
+.patient-sidebar .sidebar{
+    display:flex;
+    height:850px;
+    top:0;
+    left:0;
+    position:absolute;
+    justify-content: center;
+    width:20%;
+    border:3px solid black;
+    border-top:none;
+    border-left:none;
+}
+.patient-sidebar .side-links{
+    display:flex;    
+    margin-top:20px;
+    flex-direction:column;
+}
+.patient-sidebar .center{
+    justify-content: center;
+}
+.patient-sidebar .side-links button{
+    font-weight:bold;
+    font-family: Marker Felt, fantasy;
+    color: black;
+    text-shadow:silver;
+    text-decoration: none;
+    margin:70px;
+    padding:5px;
+    background-color:transparent;
+    transition-duration: 0.4s;
+    border:none;
+}
+
+.patient-sidebar .side-links button:hover,.patient-sidebar .hamburger button:hover{
+    color:black;
+    transform: scale(1.1);
+    cursor:pointer;
+    background-color: white;
+}
+.patient-sidebar .homepic:hover{
+    transform: scale(1.1);
+    cursor:pointer;
+}
+.patient-sidebar .homepic:active,.patient-sidebar side-links button:active,.patient-sidebar .hamburger button:hover{
+    color:red;
+}
+@media (min-width:768px){
+    .patient-sidebar .button-side-bar nav{
+        display:none;
+    }
+    .patient-sidebar .hamburger{
+        display:none;
+    }
+}
+@media (max-width:768px){
+    .patient-sidebar .normal-side-bar nav{
+        display:none;
+    }
+}

@@ -1,0 +1,67 @@
+.record {
+  border: 1px solid #000000;
+  padding: 10px;
+  margin: 10px;
+}
+.dd-box {
+  border: 1px solid #000000;
+  padding: 1%;
+  margin: 0.5%;
+}
+
+.doctor-box {
+  display: inline-block;
+  padding: 1%;
+}
+
+.date-box {
+  display: inline-block;
+  padding: 1%;
+  margin-left: 80%;
+}
+
+.problem {
+  border: 1px solid #000000;
+  padding: 1%;
+  margin: 0.5%;
+}
+
+.medication {
+  border: 1px solid #000000;
+  padding: 1%;
+  margin: 0.5%;
+}
+
+.care {
+  border: 1px solid #000000;
+  padding: 1%;
+  margin: 0.5%;
+}
+
+.simple-record {
+  border: 1px solid #000000;
+  padding: 1%;
+  margin: 0.25%;
+}
+
+.dept {
+  float: left;
+  padding: 0.5%;
+}
+.simple-heading {
+  display: inline-block;
+  padding: 0.5%;
+}
+.date {
+  float: right;
+  padding: 0.5%;
+}
+
+.go-back {
+  float: right;
+}
+.text-style {
+  border: 1px solid #000000;
+  margin: 10px;
+  padding: 5px;
+}

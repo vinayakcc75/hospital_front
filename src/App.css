@@ -1,0 +1,13 @@
+.App {
+  text-align: center;
+}
+
+.particles{
+  z-index: -1;
+}
+/* body{
+  background-image: url(https://images.unsplash.com/photo-1579546929518-9e396f3cc809?ixlib=rb-1.2.1&w=1000&q=80);
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-color:pink;
+} */

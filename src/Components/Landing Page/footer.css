@@ -1,0 +1,26 @@
+footer{
+    /* margin-top:60vh;  */
+    background-color: black;
+    color:white;
+    height:200px;
+    position:absolute;
+    width:100%;
+    bottom:0;
+    left:0;
+}
+.foot p{
+    font-weight: bold;
+} 
+.icons{
+    position:absolute;
+    display:flex;
+    justify-content: center;
+    width:40%;
+}
+.icons {
+    width:100%;
+    justify-content: center;
+}
+.icons img{
+    margin:5px;
+}

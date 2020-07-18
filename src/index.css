@@ -1,0 +1,14 @@
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin-top:100px;
+  font-family: 'Times New Roman', Times, serif; 
+  background: linear-gradient(to right,rgb(31, 185, 236),pink);
+}
+html{
+  height:100%;
+}
+body{
+ margin-top:100px;
+ min-height: 100%;
+}
